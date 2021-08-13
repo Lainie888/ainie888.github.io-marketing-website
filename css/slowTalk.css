@@ -227,15 +227,15 @@ input {
 }
 
 #product_locking .row .col > ul li .icon_talk {
-  background: url(/images/icon_talk.png) no-repeat;
+  background: url(./images/icon_talk.png) no-repeat;
 }
 
 #product_locking .row .col > ul li .icon_coin {
-  background: url(/images/icon_coin.png) no-repeat;
+  background: url(./images/icon_coin.png) no-repeat;
 }
 
 #product_locking .row .col > ul li .icon_social {
-  background: url(/images/icon_social.png) no-repeat;
+  background: url(./images/icon_social.png) no-repeat;
 }
 
 #product_locking .row .col > ul li h1 {
@@ -424,7 +424,7 @@ input {
   width: 100%;
   height: 0;
   padding-bottom: 14.01%;
-  background: url(/images/product_introduce.jpg) no-repeat;
+  background: url(./images/product_introduce.jpg) no-repeat;
   background-size: 100%;
   text-align: left;
   -webkit-box-pack: center;
@@ -444,7 +444,7 @@ input {
     width: 100%;
     height: 0;
     padding-bottom: 41.687%;
-    background: url(/images/product_introduce_moible.jpg) no-repeat;
+    background: url(./images/product_introduce_moible.jpg) no-repeat;
     background-size: 100%;
   }
 }
@@ -622,22 +622,22 @@ input {
 }
 
 #product_section_03.about_group .about_content > ul > li .img_top.slowTalk_img_top_01 {
-  background: url(/images/slowTalk_img_top_01.jpg) no-repeat;
+  background: url(./images/slowTalk_img_top_01.jpg) no-repeat;
   background-size: 100%;
 }
 
 #product_section_03.about_group .about_content > ul > li .img_top.slowTalk_img_top_02 {
-  background: url(/images/slowTalk_img_top_02.jpg) no-repeat;
+  background: url(./images/slowTalk_img_top_02.jpg) no-repeat;
   background-size: 100%;
 }
 
 #product_section_03.about_group .about_content > ul > li .img_top.product_img_top_03 {
-  background: url(/images/product_img_top_03.jpg) no-repeat;
+  background: url(./images/product_img_top_03.jpg) no-repeat;
   background-size: 100%;
 }
 
 #product_section_03.about_group .about_content > ul > li .img_top.product_img_top_04 {
-  background: url(/images/product_img_top_04.jpg) no-repeat;
+  background: url(./images/product_img_top_04.jpg) no-repeat;
   background-size: 100%;
 }
 
@@ -731,7 +731,7 @@ input {
 #product_section_03.about_group .about_content > ul > li.icon_box span.icon_mobile {
   width: 95px;
   height: 95px;
-  background: url(/images/icon_mobile.png) no-repeat;
+  background: url(./images/icon_mobile.png) no-repeat;
   background-size: 100%;
 }
 
@@ -1037,7 +1037,7 @@ input {
 #product_program .program_group > ul > li .txt_tit span.icon_service {
   width: 55px;
   height: 60px;
-  background: url(../images/icon_service.png) no-repeat;
+  background: url(.../images/icon_service.png) no-repeat;
   background-size: 100%;
   margin-bottom: 9px;
 }
@@ -1045,7 +1045,7 @@ input {
 #product_program .program_group > ul > li .txt_tit span.icon_safe {
   width: 55px;
   height: 60px;
-  background: url(../images/icon_safe.png) no-repeat;
+  background: url(.../images/icon_safe.png) no-repeat;
   background-size: 100%;
   margin-bottom: 9px;
 }
@@ -1053,7 +1053,7 @@ input {
 #product_program .program_group > ul > li .txt_tit span.icon_customer {
   width: 55px;
   height: 60px;
-  background: url(../images/icon_customer.png) no-repeat;
+  background: url(.../images/icon_customer.png) no-repeat;
   background-size: 100%;
   margin-bottom: 9px;
 }
@@ -1139,4 +1139,3 @@ input {
     margin-bottom: 32px;
   }
 }
-/*# sourceMappingURL=slowTalk.css.map */
