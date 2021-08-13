@@ -89,7 +89,7 @@ input {
   display: inline-block;
   z-index: 1033;
   position: absolute;
-  background: url(./images/arrow_right.png) no-repeat;
+  background: url(/images/arrow_right.png) no-repeat;
   background-size: 100%;
 }
 
@@ -106,7 +106,7 @@ input {
 }
 
 #registerGroup .registerL .BG_login {
-  background: url(./images/BG_login.jpg) repeat-y;
+  background: url(/images/BG_login.jpg) repeat-y;
   background-size: cover;
   padding-bottom: 118.54%;
   height: 100%;
@@ -257,7 +257,7 @@ input {
 #registerGroup .registerR .register_header span.icon_register {
   width: 128px;
   height: 128px;
-  background: url(./images/icon_register.png) no-repeat;
+  background: url(/images/icon_register.png) no-repeat;
   background-size: 100%;
 }
 
@@ -505,3 +505,4 @@ input {
 #registerGroup .registerR .register_box .form_footer button.btn_cancel:hover {
   font-size: 15px;
 }
+/*# sourceMappingURL=registered.css.map */

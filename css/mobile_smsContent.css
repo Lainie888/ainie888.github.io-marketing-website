@@ -195,7 +195,7 @@ input {
 #Contact .contact_group .row .col .customer_box > ul > li span.icon_box .icon {
   width: 88px;
   height: 99px;
-  background: url(./images/icon_customer.png) no-repeat;
+  background: url(/images/icon_customer.png) no-repeat;
   background-size: 100%;
 }
 
@@ -243,3 +243,4 @@ input {
     margin-bottom: 40px;
   }
 }
+/*# sourceMappingURL=mobile_smsContent.css.map */

@@ -592,13 +592,13 @@
     width: 100%;
     height: 0;
     padding-bottom: 35.052%;
-    background: url(./images/BG_contact.jpg) no-repeat;
+    background: url(../images/BG_contact.jpg) no-repeat;
     background-size: 100%;
     @include tablet_pro {
       width: 100%;
       height: 0;
       padding-bottom: 55.088%;
-      background: url(./images/BG_contact_tablet_pro.jpg) no-repeat;
+      background: url(../images/BG_contact_tablet_pro.jpg) no-repeat;
       background-size: 100%;
     }
     .contact_group {
@@ -660,7 +660,7 @@
                     .icon {
                       width: 88px;
                       height: 99px;
-                      background: url(./images/icon_customer.png) no-repeat;
+                      background: url(../images/icon_customer.png) no-repeat;
                       background-size: 100%;
                     }
                     @include tablet_pro {
