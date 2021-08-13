@@ -432,7 +432,7 @@ input {
 }
 
 #product_section_03.about_group .about_content > ul > li .img_top.product_img_top_01 {
-  background: url(/images/smsContent_img_top_01.jpg) no-repeat;
+  background: url(../images/smsContent_img_top_01.jpg) no-repeat;
   background-size: 100%;
 }
 
@@ -528,7 +528,7 @@ input {
 #product_section_03.about_group .about_content > ul > li.icon_box span.icon_mobile {
   width: 95px;
   height: 95px;
-  background: url(/images/icon_mobile.png) no-repeat;
+  background: url(../images/icon_mobile.png) no-repeat;
   background-size: 100%;
 }
 
@@ -876,4 +876,3 @@ input {
     margin-bottom: 32px;
   }
 }
-/*# sourceMappingURL=smsContent.css.map */
