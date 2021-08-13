@@ -1,0 +1,68 @@
+//RWD
+@mixin mobile {
+  @media (min-width: 320px) and (max-width: 767px) {
+    @content;
+  }
+}
+
+@mixin tablet {
+  @media (min-width: 768px) and (max-width: 1023px) {
+    @content;
+  }
+}
+
+@mixin tablet_pro {
+  @media (min-width: 1024px) and (max-width: 1366px) {
+    @content;
+  }
+}
+
+@mixin desktop {
+  @media (min-width: 1367px) and (max-width: 1920px) {
+    @content;
+  }
+}
+
+//button_base_style
+%btn_base {
+  display: inline-block;
+  font-weight: 400;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: middle;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  border: 1px solid transparent;
+  //padding: .375rem .75rem;
+  font-size: 14px;
+  line-height: 1.5;
+  //border-radius: 4px;
+  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out,
+    border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+
+%ball_base {
+  text-align: center;
+  display: block;
+  border-radius: 50%;
+  padding: 5px;
+}
+
+%game_base {
+  // background: bg_color(bgcolor_black);
+  // border: 1px solid $txt_color_black;
+  margin: 14px 10px 0 0;
+  justify-content: space-between;
+  align-items: center;
+  white-space: nowrap;
+}
+
+%game_information_base {
+  //外連遊戲的四個按鈕的基本樣式
+  display: flex;
+  flex-direction: column;
+  cursor: pointer;
+  text-align: center;
+}

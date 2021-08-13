@@ -1,0 +1,295 @@
+@import "_mixin";
+@import "_component";
+
+#loginGroup {
+  width: 100%;
+  height: 100%;
+  padding-top: 100px;
+  display: flex;
+  justify-content: flex-start;
+  position: relative;
+  @include mobile {
+    padding-top: 80px;
+  }
+  .arrow_box {
+    position: absolute;
+    width: 88px;
+    height: 88px;
+    background: #e0e4e8;
+    border: 6px solid #fff;
+    z-index: 1032;
+    border-radius: 50%;
+    margin-top: 228px;
+    margin-left: 603px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 4px;
+    @include mobile {
+      display: none;
+    }
+    @include tablet {
+      margin-top: 199px;
+      margin-left: 218px;
+    }
+    @include tablet_pro {
+      margin-top: 152px;
+      margin-left: 306px;
+    }
+    .arrow_right {
+      width: 32px;
+      height: 35px;
+      display: inline-block;
+      z-index: 1033;
+      position: absolute;
+      background: url(/images/arrow_right.png) no-repeat;
+      background-size: 100%;
+    }
+  }
+  .registerL {
+    width: 34%;
+    height: 100%;
+    margin-bottom: 0;
+    @include mobile {
+      display: none;
+    }
+    .BG_login {
+      background: url(/images/BG_login.jpg) repeat-y;
+      background-size: cover;
+      padding-bottom: 118.54%;
+      height: 100%;
+      width: 100%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      position: relative;
+      .txt_tit {
+        position: absolute;
+        font-size: 24px;
+        font-weight: 600;
+        color: #3d3d3d;
+        margin-top: 20px;
+        text-align: center;
+        margin-top: 500px;
+        @include mobile {
+          margin-top: 10px;
+        }
+        @include tablet {
+          margin-top: -10px;
+        }
+        @include tablet_pro {
+          margin-top: 352px;
+        }
+      }
+      .txt {
+        position: absolute;
+        margin-top: 580px;
+        display: block;
+        text-align: center;
+        font-size: 13px;
+        color: #3d3d3d;
+        letter-spacing: 2px;
+        @include tablet {
+          margin-top: 46px;
+        }
+        @include tablet_pro {
+          margin-top: 411px;
+        }
+      }
+    }
+  }
+  .registerR {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    @include mobile {
+      width: 100%;
+    }
+    @include tablet {
+      padding-left: 15px;
+    }
+    @include tablet_pro {
+      padding-left: 15px;
+    }
+    @include desktop {
+      width: 40%;
+      padding-left: 80px;
+    }
+    .register_header {
+      width: 100%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      @include mobile {
+        width: 100%;
+      }
+      @include tablet {
+        display: none;
+      }
+      @include tablet_pro {
+        display: none;
+      }
+      @include desktop {
+        display: none;
+      }
+      span {
+        display: inline-block;
+        &.icon_register {
+          width: 128px;
+          height: 128px;
+          background: url(/images/icon_register.png) no-repeat;
+          background-size: 100%;
+          @include mobile {
+            width: 80px;
+            height: 80px;
+          }
+        }
+        &.txt_tit {
+          font-size: 18px;
+          color: #3d3d3d;
+          margin-top: 20px;
+          text-align: center;
+          @include mobile {
+            margin-top: 10px;
+          }
+          .txt {
+            display: block;
+            text-align: center;
+            font-size: 13px;
+            color: #a8a1a1;
+            letter-spacing: 1px;
+          }
+        }
+      }
+    }
+    .register_box {
+      width: 100%;
+      padding: 30px 20px;
+      @include mobile {
+        width: 100%;
+        padding: 30px 10px;
+      }
+      @include tablet {
+        padding-top: 0;
+      }
+      @include tablet_pro {
+        padding-top: 0;
+      }
+      @include desktop {
+        padding-top: 0;
+      }
+      .txt_tit {
+        font-size: 14px;
+        padding-left: 21px;
+        margin-bottom: 13px;
+        display: block;
+      }
+      .formGroup {
+        padding: 5px 20px 18px;
+        .formStyle {
+          font-size: 15px;
+          color: #3d3d3d;
+          width: 100%;
+        }
+        label.formStyle {
+          font-size: 15px;
+          color: #646060;
+          width: 100%;
+          display: flex;
+          letter-spacing: 1px;
+          font-weight: 600;
+          padding-left: 5px;
+        }
+        input.formStyle,
+        select.formStyle {
+          width: 100%;
+          font-size: 15px;
+          color: #3d3d3d;
+          border-bottom: 1px solid #d8d8d8;
+          border-radius: 3px;
+          padding: 8px 5px;
+          border-top: 0;
+          border-left: 0;
+          border-right: 0;
+        }
+        select.select_countryCode {
+          width: 30%;
+          margin-right: 1px;
+          @include tablet_pro {
+            width: 40%;
+          }
+        }
+        input.form_tel {
+          width: 69%;
+          @include mobile {
+            width: 68%;
+          }
+          @include tablet {
+            width: 68%;
+          }
+          @include tablet_pro {
+            width: 58%;
+          }
+        }
+        &.tipGroup {
+          display: flex;
+          justify-content: space-between;
+          font-size: 14px;
+          align-items: center;
+          @include mobile {
+            margin-top: -13px;
+          }
+          input {
+            margin-right: 5px;
+            width: 14px;
+            height: 14px;
+          }
+          .txt_tip {
+            display: block;
+            color: #0071ce;
+            cursor: pointer;
+          }
+        }
+        .txt_warn {
+          font-size: 13px;
+          color: #ff1c1c;
+          display: inline-block;
+        }
+      }
+      .form_footer {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 30px 10px 15px;
+        button {
+          @include btn_Primary;
+          width: 115px;
+          height: 42px;
+          line-height: 42px;
+          font-size: 15px;
+          &:hover {
+            font-size: 15px;
+          }
+          &.btn_cancel {
+            @include btn_Primary_border;
+            height: 42px;
+            line-height: 42px;
+            text-align: center;
+            font-size: 15px;
+            background: transparent;
+            border: 1px solid #0071ce;
+            color: #0071ce;
+            width: 115px;
+            margin-right: 20px;
+            &:hover {
+              font-size: 15px;
+            }
+          }
+        }
+      }
+    }
+  }
+}
